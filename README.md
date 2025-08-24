@@ -61,7 +61,7 @@ and click **“Request temporary access”** before it works.
 
 ## 🗂️ Project Structure
 ```
-("
+
 FOODCART/
 ├─ src/
 │  ├─ auth/
@@ -96,7 +96,7 @@ FOODCART/
 │  └─ index.html
 ├─ package.json
 └─ README.md
-")
+```
 
 
 ## 📸 Screenshots
