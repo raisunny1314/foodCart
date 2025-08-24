@@ -12,7 +12,6 @@ export default function DineCard({ restData }) {
                         alt={restData?.info?.name}
                     />
 
-                    {/* Dark gradient overlay */}
                     <div className="absolute bottom-0 left-0 right-0 height-20 bg-gradient-to-t from-black/80 to-transparent"></div>
                     
                     {/* Restaurant Info */}

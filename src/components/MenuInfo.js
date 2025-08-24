@@ -24,11 +24,9 @@ export default function MenuInfo({ menuInfo }) {
         <>
             <div className="flex gap-6 py-8 border-b border-gray-200/80">
 
-                {/* Left Side: Text Info */}
+           
                 <div className="flex-1">
-                    {/* You can add an icon here for veg/non-veg if you have that data */}
-                    {/* <img src="veg-icon.png" alt="Veg" className="w-5 h-5 mb-1"/> */}
-
+                   
                     <h3 className="text-lg font-bold text-gray-900 mb-1">
                         {menuInfo?.name}
                     </h3>
@@ -54,7 +52,7 @@ export default function MenuInfo({ menuInfo }) {
                     </p>
                 </div>
 
-                {/* Right Side: Image + Add / Counter */}
+               
                 <div className="w-40 flex-shrink-0 text-center relative">
                     <img
                         className="w-full h-40 object-cover rounded-xl shadow-lg transition-transform duration-300 group-hover:scale-105"

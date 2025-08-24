@@ -32,7 +32,7 @@ export default function RestaurantMenu() {
                     </Link>
                 </div>
 
-                {/* Filter buttons */}
+          
                 <div className="w-full pt-16 pb-16 bg-gray-50 min-h-screen">
                     <div className="w-[80%] mx-auto flex flex-wrap gap-4 mb-10 justify-center">
                         <button
@@ -56,7 +56,7 @@ export default function RestaurantMenu() {
                         </button>
                     </div>
 
-                    {/* Menu list */}
+   
                     <div className="w-[80%] mx-auto space-y-10">
                         {
                             RestData?.map((menuItems) => (

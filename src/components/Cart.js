@@ -64,16 +64,16 @@ export default function Cart() {
                                     </p>
                                 </div>
 
-                                {/* Quantity and Remove Button */}
+                          
                                 <div className="flex flex-1 items-end justify-between text-sm mt-4">
-                                    {/* Quantity Counter */}
+                                 
                                     <div className="flex items-center border border-gray-300 rounded-md">
                                         <button className="px-3 py-1 text-lg font-semibold text-gray-600 hover:bg-gray-100 rounded-l-md">-</button>
                                         <span className="px-4 py-1 font-bold text-gray-800">{item.quantity}</span>
                                         <button className="px-3 py-1 text-lg font-semibold text-gray-600 hover:bg-gray-100 rounded-r-md">+</button>
                                     </div>
 
-                                    {/* Remove Button */}
+                                  
                                     <div className="flex">
                                         <button type="button" className="font-medium text-red-500 hover:text-red-700">
                                             Remove
@@ -105,7 +105,7 @@ export default function Cart() {
                 </div>
             </div>
 
-            {/* Checkout Button */}
+            
             <div className="mt-10">
                 <button className="w-full rounded-xl bg-orange-500 px-6 py-4 text-center text-lg font-bold text-white shadow-lg hover:bg-orange-600 transition-all duration-300 transform hover:scale-[1.02]">
                     Proceed to Checkout
