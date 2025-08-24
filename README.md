@@ -98,7 +98,7 @@ FOODCART/
 └─ README.md
 ```
 
-
+```
 ## 📸 Screenshots
 ![Home Page](images/Screenshot%20(136).png)
 ![SignIn Page](images/Screenshot%20(180).png)
