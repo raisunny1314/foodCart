@@ -109,9 +109,9 @@ and click **“Request temporary access”** before it works.
 
 ## 📸 Screenshots
 
-![Home Page](<images/Screenshot%20(136).png>)
 ![SignIn Page](<images/Screenshot%20(180).png>)
 ![LogIn Page](<images/Screenshot%20(182).png>)
+![Home Page](<images/Screenshot%20(136).png>)
 ![Food Choice](<images/Screenshot%20(137).png>)
 ![Shimmer Effect](<images/Screenshot%20(138).png>)
 ![FetchedFOOD](<images/Screenshot%20(175).png>)
