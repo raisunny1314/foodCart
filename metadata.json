@@ -1,0 +1,6 @@
+{
+  "name": "foodCart",
+  "description": "Swiggy-inspired food ordering, Instamart grocery delivery, and Dineout booking web application built with React and Redux Toolkit.",
+  "requestFramePermissions": [],
+  "majorCapabilities":[]
+}
