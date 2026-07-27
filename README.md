@@ -47,49 +47,44 @@ Parcel will start the dev server at `http://localhost:1234/`.
 
 The output will be generated in the `dist/` folder.
 
+## 📂 Project Structure
 
-
-
-## 🗂️ Project Structure
-
-
-```plaintext
-├── src/
-│ ├── auth/
-│ ├── components/
-│ │ ├── Cart.js
-│ │ ├── DineCard.js
-│ │ ├── DineOut.js
-│ │ ├── Food.js
-│ │ ├── FoodCard.js
-│ │ ├── Grocery.js
-│ │ ├── GroceryCard.js
-│ │ ├── Header.js
-│ │ ├── Home.js
-│ │ ├── MenuCard.js
-│ │ ├── MenuInfo.js
-│ │ ├── Restaurant.js
-│ │ ├── RestaurantMenu.js
-│ │ ├── RestCard.js
-│ │ ├── RestHeader.js
-│ │ ├── SearchFood.js
-│ │ ├── SecondHome.js
-│ │ ├── Shimmer.js
-│ ├── global/
-│ │ ├── CartSlicer.js
-│ │ ├── stores.js
-│ ├── utils/
-│ │ ├── fooddata.js
-│ │ ├── groceryData.js
-│ │ ├── restoran.js
-│ ├── App.js
-│ ├── index.css
-│ └── index.html
-├── package.json
-└── README.md
-
+```text
+src/
+├── components/
+│   ├── CartDrawer.tsx
+│   ├── CustomizationModal.tsx
+│   ├── DineoutSection.tsx
+│   ├── DishCard.tsx
+│   ├── FavoritesOrdersModal.tsx
+│   ├── FoodCategories.tsx
+│   ├── InstamartCheckoutModal.tsx
+│   ├── InstamartSection.tsx
+│   ├── LocationModal.tsx
+│   ├── Navbar.tsx
+│   ├── OffersModal.tsx
+│   ├── OrderTrackingModal.tsx
+│   ├── RestaurantCard.tsx
+│   ├── RestaurantDetail.tsx
+│   ├── RestaurantFilters.tsx
+│   ├── SearchView.tsx
+│   └── TopBrandsCarousel.tsx
+│
+│
+├── store/
+│   ├── cartSlice.ts
+│   ├── dineoutSlice.ts
+│   ├── grocerySlice.ts
+│   ├── index.ts
+│   ├── orderSlice.ts
+│   ├── restaurantSlice.ts
+│   └── userSlice.ts
+│
+├── App.tsx
+├── index.css
+├── main.tsx
+└── types.ts
 ```
-
 
 ## 📸 Screenshots
 
