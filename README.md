@@ -47,24 +47,8 @@ Parcel will start the dev server at `http://localhost:1234/`.
 
 The output will be generated in the `dist/` folder.
 
-## 🌐 CORS Note
 
-Swiggy’s data cannot be fetched directly in browsers due to **CORS restrictions**.  
-To bypass this, the project uses the **CORS Anywhere Heroku Demo** proxy:
 
-👉 `https://cors-anywhere.herokuapp.com/demo`
-
-When making API calls, prefix the URL like this:
-
-```js
-const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
-const API_URL = "https://www.swiggy.com/dapi/restaurants/list/v5?...";
-
-⚠️ **Important:** Sometimes you need to visit
-👉 https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo)
-and click **“Request temporary access”** before it works.
-
----
 
 ## 🗂️ Project Structure
 
@@ -109,17 +93,12 @@ and click **“Request temporary access”** before it works.
 
 ## 📸 Screenshots
 
-![Home Page](<images/Screenshot%20(136).png>)
-![SignIn Page](<images/Screenshot%20(180).png>)
-![LogIn Page](<images/Screenshot%20(182).png>)
-![Food Choice](<images/Screenshot%20(137).png>)
-![Shimmer Effect](<images/Screenshot%20(138).png>)
-![FetchedFOOD](<images/Screenshot%20(175).png>)
-![AddTOCart](<images/Screenshot%20(177).png>)
-![Responsive](<images/Screenshot%20(183).png>)
-![Responsive](<images/Screenshot%20(184).png>)
-![Responsive](<images/Screenshot%20(185).png>)
-![Cart](<images/Screenshot%20(178).png>)
+![Home Page](<image/Screenshot (280).png>)
+![InstaMart Page](<image/Screenshot (281).png>)
+![Food Choice](<image/Screenshot (282).png>)
+![Add to Cart](<image/Screenshot (283).png>)
+![Cart](<image/Screenshot (284).png>)
+![Payment](<image/Screenshot (285).png>)
 
 ## ⚠️ Disclaimer
 
